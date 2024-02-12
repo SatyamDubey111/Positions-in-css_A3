@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task5_Answer</title>
+
+    <style>
+
+        .container {
+            background-color: aqua;
+            height: 400px;
+            width: 450px;
+            position:relative;
+            top: 100px;
+            left: 150px;
+            border-radius: 10px;
+            border: 1px solid;
+
+        }
+      .box {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    color: white;
+}
+
+.red {
+    background-color: red;
+    top: 40px;
+    left: 40px;
+    z-index: 1; 
+}
+
+.blue {
+    background-color: blue;
+    top: 100px;
+    left: 120px;
+    z-index: 2; 
+}
+
+.green {
+    background-color: green;
+    top: 180px;
+    left: 220px;
+    z-index: 3; 
+}
+    </style>
+</head>
+<body style="background-color:beige">
+    <h1>Z-index:</h1>
+    <h3>Z-index property in css controls the stacking order ofpositioned elements. It specifies the stack level of an element along the z-axix, which determines its position in the stacking context. Element with a higher z-index value will appear on top of elements with lower z-index values.</h3>
+    <h4>Example -></h4>
+    <div class="container">
+    <div class="box red">Z-index 1</div>
+    <div class="box blue">Z-index 2</div>
+    <div class="box green">Z-index 3</div>
+
+    </div>
+</body>
+</html>
+
+
+
+</body>
+</html>
